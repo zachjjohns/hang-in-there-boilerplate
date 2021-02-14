@@ -15,8 +15,8 @@
 5. Double-click saved posters to delete from page
 6. Navigate around, make some silly/inspiring posters, and have fun!
 
-![Main Page View](readme-imgs/MainPageView.png){: width=500 height=400 style="float:center; padding:16px"}
+![Main Page View](readme-imgs/MainPageView.png)
 
-![Make-Your-Own View](readme-imgs/MakeYourOwnView.png){: width=500 height=400 style="float:center; padding:16px"}
+![Make-Your-Own View](readme-imgs/MakeYourOwnView.png)
 
-![Saved Posters View](readme-imgs/SavedPostersView.png){: width=500 height=100 style="float:center; padding:16px"}
+![Saved Posters View](readme-imgs/SavedPostersView.png)
