@@ -10,6 +10,7 @@
 1. Follow [this link](https://zachjjohns.github.io/hang-in-there-boilerplate/) to view the site
 2. Data is stored temporarily and will be removed upon page refresh
 2. Click "Show Another Random Poster" to generate a random poster from pre-established values
+2. You can also click the individual elements (Image, Title, Quote) to repopulate them randomly
 3. Click "Make Your Own Poster" and input image URL + Title/Quote for your own poster!
 4. Click "Save This Poster" to save and view later by clicking "Show Saved Posters"
 5. Double-click saved posters to delete from page
