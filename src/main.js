@@ -121,6 +121,9 @@ savedButton.addEventListener("click", showSaved);
 neverMindButton.addEventListener("click", showMain);
 backToMainButton.addEventListener("click", showMain);
 savePosterButton.addEventListener("click", savePoster);
+title.addEventListener("click", randomizeTitle);
+phrase.addEventListener("click", randomizePhrase);
+image.addEventListener("click", randomizePhoto);
 
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
@@ -132,6 +135,24 @@ function randomizePoster() {
   var randomQuote = quotes[getRandomIndex(quotes)];
   currentPoster = new Poster(randomImage, randomTitle, randomQuote);
   displayCurrentPoster();
+}
+
+function randomizeTitle() {
+  var randomTitle = titles[getRandomIndex(titles)];
+  currentPoster = new Poster(currentPoster.imageURL, randomTitle, currentPoster.quote);
+  title.innerText = currentPoster.title;
+ }
+
+function randomizePhrase() {
+  var randomQuote = quotes[getRandomIndex(quotes)];
+  currentPoster = new Poster(currentPoster.imageURL, currentPoster.title, randomQuote);
+  phrase.innerText = currentPoster.quote;
+}
+
+function randomizePhoto() {
+  var randomImage = images[getRandomIndex(images)];
+  currentPoster = new Poster(randomImage, currentPoster.title, currentPoster.quote);
+  image.src = currentPoster.imageURL;
 }
 
 function displayCurrentPoster() {
@@ -176,6 +197,7 @@ function displayInSaved() {
 function savePoster() {
   if (!savedPosters.includes(currentPoster)) {
     savedPosters.unshift(currentPoster);
+    console.log(currentPoster);
   }
 }
 
