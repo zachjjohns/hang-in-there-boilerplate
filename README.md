@@ -1,13 +1,22 @@
 # Hang In There
 
-A boilerplate repo. 
+#### Project Contributors: Tyson McNutt + Zach Johnson
 
-## Set Up
+#### Technologies Used
+  - Utilizing vanilla JavaScript to manipulate HTML/CSS through DOM
 
-1. One teammate: fork this repository
-2. Go to settings and turn on GitHub Pages for this repository
-3. All teammates: clone down this repository
-4. `cd` into the repository
-5. Run `open index.html` to view it in the browser
+#### Instructions
 
-Project spec & rubric can be found [here](https://frontend.turing.io/projects/module-1/hang-in-there.html)
+1. Follow [this link](https://zachjjohns.github.io/hang-in-there-boilerplate/) to view the site
+2. Data is stored temporarily and will be removed upon page refresh
+2. Click "Show Another Random Poster" to generate a random poster from pre-established values
+3. Click "Make Your Own Poster" and input image URL + Title/Quote for your own poster!
+4. Click "Save This Poster" to save and view later by clicking "Show Saved Posters"
+5. Double-click saved posters to delete from page
+6. Navigate around, make some silly/inspiring posters, and have fun!
+
+![Main Page View](readme-imgs/MainPageView.png){: width=500 height=400 style="float:center; padding:16px"}
+
+![Make-Your-Own View](readme-imgs/MakeYourOwnView.png){: width=500 height=400 style="float:center; padding:16px"}
+
+![Saved Posters View](readme-imgs/SavedPostersView.png){: width=500 height=100 style="float:center; padding:16px"}
